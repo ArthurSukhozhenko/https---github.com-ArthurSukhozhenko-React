@@ -8,21 +8,3 @@
   grid-gap: 10px;
   max-width: fit-content;
 }
-
-.header {
-  grid-area: h;
-  background-color: greenyellow;
-}
-.header img {
-  width: 70px;
-}
-
-.nav {
-  grid-area: n;
-  background-color: greenyellow;
-}
-
-.profile {
-  grid-area: c;
-  background-color: bisque;
-}
