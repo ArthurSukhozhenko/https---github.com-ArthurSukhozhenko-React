@@ -9,7 +9,7 @@ const Post = (props) => {
         <img src="https://shapka-youtube.ru/wp-content/uploads/2021/02/prikolnaya-avatarka-dlya-patsanov.jpg" alt="" />
         {props.message}
         <div>
-          <span>Like</span>
+          <span>Like</span> { props.likeCount }
         </div>
       </div>
     </div>

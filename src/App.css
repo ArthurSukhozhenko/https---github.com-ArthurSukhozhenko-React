@@ -8,3 +8,9 @@
  /* grid-gap: 10px;*/
   max-width: fit-content;
 }
+
+
+.app-wrapper-content {
+  grid-area: c;
+  background-color: rgb(251, 255, 0);
+}
