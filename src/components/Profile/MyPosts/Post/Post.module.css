@@ -1,6 +1,8 @@
 .item {
-  color: #ff472f;
+  color: #000000;
+  font-size: large;
 }
+
 .item img {
   height: 50px;
   width: 50px;
