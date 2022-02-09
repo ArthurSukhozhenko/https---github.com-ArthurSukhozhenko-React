@@ -1,17 +1,10 @@
 .dialogs {
     display: grid;
     grid-template-columns: 2fr 10fr;
-
 }
 
-.dialogItems {
-    padding: 10px;
-
-}
-
-.dialog {
-    padding: 10px;
-
+.dialogItem {
+   
 }
 
 .dialog a {
@@ -20,15 +13,9 @@
     font-size: 20px;
 }
 
-
-.active a {
-    color: red;
-}
-
-.messages {}
-
-.message {
-    padding: 10px;
+.messages {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
-    color: blue;
+    color: rgb(144, 246, 144);
+    padding: 1.75px;
 }

@@ -1,0 +1,23 @@
+.avatar {
+    border: 2px solid goldenrod;
+    height: 400px;
+    width: 600px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.content {
+    display: grid;
+    font-size: large;
+    grid-template-columns: 5fr 5fr;
+}
+
+.descriptioBlock {
+    font-size: larger;
+    margin: 10px;
+    border: 2px solid goldenrod;
+    padding: 10px;
+    border-radius: 20px;
+    height: 379px;
+    background-color: white;
+}
