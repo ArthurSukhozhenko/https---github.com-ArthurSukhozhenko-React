@@ -7,14 +7,12 @@ const ProfileInfo = (props) => {
       <div>
         <img
           className={s.avatar}
-          src="https://cdn.pixabay.com/photo/2017/08/02/01/02/wooden-2569336_960_720.jpg"
+          src=""
+          src="https://cdnuploads.aa.com.tr/uploads/Contents/2020/08/20/thumbs_b_c_a6be7ef2836b17de46a92e431fe2d60f.jpg?v=114221"
         />
       </div>
       <div className={s.descriptioBlock}>
-        "Bubble" — одна из самых популярных социальных сетей, число
-        пользователей которой превышает 1 миллиард по всему миру. "Bubble"
-        обычно используется для обмена фотографиями и вашей повседневной
-        деятельностью в основном с помощью изображений.
+        "Укроп" — Перша Українська соціальна мережа .
       </div>
     </div>
   );

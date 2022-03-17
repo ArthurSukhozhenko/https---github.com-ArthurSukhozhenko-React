@@ -10,7 +10,7 @@ const Navbar = () => {
           to="/profile"
           className={(navData) => (navData.isActive ? s.activeLink : s.item)}
         >
-          Profile
+          Профіль
         </NavLink>
       </div>
       <div className={s.item}>
@@ -18,7 +18,7 @@ const Navbar = () => {
           to="/dialogs"
           className={(navData) => (navData.isActive ? s.activeLink : s.item)}
         >
-          Messages
+          Повідомлення
         </NavLink>
       </div>
       <div className={s.item}>
@@ -26,7 +26,7 @@ const Navbar = () => {
           to="/news"
           className={(navData) => (navData.isActive ? s.activeLink : s.item)}
         >
-          News
+          Новини
         </NavLink>
       </div>
       <div className={s.item}>
@@ -34,7 +34,7 @@ const Navbar = () => {
           to="/music"
           className={(navData) => (navData.isActive ? s.activeLink : s.item)}
         >
-          Music
+          Музика
         </NavLink>
       </div>
       <div className={s.item}>
@@ -42,7 +42,7 @@ const Navbar = () => {
           to="/settings"
           className={(navData) => (navData.isActive ? s.activeLink : s.item)}
         >
-          Settings
+          Налаштування
         </NavLink>
       </div>
     </nav>

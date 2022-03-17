@@ -1,10 +1,10 @@
 import React from "react";
-import s from './Header.module.css' ;
+import s from "./Header.module.css";
 
 const Header = () => {
   return (
     <header className={s.header}>
-      <h1>Bubble</h1>
+      <h1>Укроп</h1>
     </header>
   );
 };

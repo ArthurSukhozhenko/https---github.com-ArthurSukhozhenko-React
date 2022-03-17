@@ -1,12 +1,12 @@
 .nav {
   grid-area: n;
-  background-color: #20B2AA;
+  background-color: hsl(61, 100%, 50%);
   padding: 20px;
 
 }
 
 .item a {
-  color: white;
+  color: rgb(6, 10, 243);
   text-decoration: none;
   font-size: 30px;
   font-family: 'Times New Roman', Times, serif;
@@ -15,4 +15,9 @@
 
 .item a.activeLink {
   color: black;
+}
+
+.item {
+  padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
 }
