@@ -18,16 +18,16 @@ import reportWebVitals from './reportWebVitals';
    { id: 2, message: "Я тут Босс!!!" },
    { id: 3, message: "Як справи?" },
    { id: 4, message: "Bla bla bla" },
-   { id: 5, message: "Го на двіж?" },
-   { id: 6, message: "Курить є? Дай сігу!" },
+   { id: 5, message: "Го ту ріва?" },
+   { id: 6, message: "Запрошую на паті" },
  ];
 
 let posts = [
-  { id: 1, message: "Hi, how are you?", likeCount: 12 },
-  { id: 2, message: "It's my first post", likeCount: 11 },
-  { id: 3, message: "I'm learn React", likeCount: 17 },
-  { id: 4, message: "I love JavaScript", likeCount: 78 },
-  { id: 5, message: "You like it?", likeCount: 45 },
+  { id: 1, message: "Вітаю бро", likeCount: 12 },
+  { id: 2, message: "Як справи?", likeCount: 11 },
+  { id: 3, message: "Я вчу React", likeCount: 17 },
+  { id: 4, message: "Я love JavaScript", likeCount: 78 },
+  { id: 5, message: "Тобі подобається?", likeCount: 45 },
 ];
 
 ReactDOM.render(

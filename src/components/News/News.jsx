@@ -3,7 +3,7 @@ import React from "react";
 const News = () => {
   return (
     <div>
-      News
+     Ця сторінка буде відображувати Feeds 
     </div>
   );
   

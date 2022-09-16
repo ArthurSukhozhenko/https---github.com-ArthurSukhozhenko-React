@@ -3,7 +3,7 @@ import React from "react";
 const Settings = () => {
   return (
      <div>
-          Settings
+          Тут ми зможемо налаштувати нашу мережу!
      </div>
   )
 };
