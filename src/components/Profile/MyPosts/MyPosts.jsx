@@ -9,12 +9,22 @@ const MyPosts = (props) => {
     <Post message={p.message} likeCount={p.likeCount} />
   ));
 
+
+  let newPostElement = React.createRef();
+
+  
+
+  let addPost = () => {
+    let text = newPostElement.current.value;
+    alert(text);
+  }
+
   return (
-    <div className={s.myposts}> 
+    <div className={s.myposts}>
       <h2>Моя стрічка</h2>
       <div className={s.addPost}>
-        <textarea name="" id="" cols="30" rows="1"></textarea>
-        <button onClick={ () => { alert('Hey I am not ready')}}>Надіслати</button>
+        <textarea ref={newPostElement} cols="30" rows="1"></textarea>
+        <button onClick={ addPost }>Надіслати</button>
       </div>
       <div className={s.posts}>{postsElement}</div>
     </div>
