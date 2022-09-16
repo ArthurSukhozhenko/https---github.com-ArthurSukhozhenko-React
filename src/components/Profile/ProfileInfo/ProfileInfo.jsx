@@ -11,7 +11,7 @@ const ProfileInfo = (props) => {
         />
       </div>
       <div className={s.descriptioBlock}>
-        "Укроп" — Перша Українська соціальна мережа .
+        "Ukraine" — Перша Українська соціальна мережа .
       </div>
     </div>
   );
