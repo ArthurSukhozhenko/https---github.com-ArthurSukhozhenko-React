@@ -10,7 +10,7 @@ const MyPosts = (props) => {
   ));
 
   return (
-    <div className={s.myposts}>
+    <div className={s.myposts}> 
       <h2>Моя стрічка</h2>
       <div className={s.addPost}>
         <textarea name="" id="" cols="30" rows="1"></textarea>
