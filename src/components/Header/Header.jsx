@@ -4,7 +4,7 @@ import s from "./Header.module.css";
 const Header = () => {
   return (
     <header className={s.header}>
-      <h1>Ukraine</h1>
+      <h1 url="/profile">Ukraine</h1>
     </header>
   );
 };

@@ -14,7 +14,7 @@ const MyPosts = (props) => {
       <h2>Моя стрічка</h2>
       <div className={s.addPost}>
         <textarea name="" id="" cols="30" rows="1"></textarea>
-        <button>Надіслати</button>
+        <button onClick={ () => { alert('Hey I am not ready')}}>Надіслати</button>
       </div>
       <div className={s.posts}>{postsElement}</div>
     </div>
